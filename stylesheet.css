@@ -1,0 +1,368 @@
+body{
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2022%2F11%2F17%2Farticle_291139_the-top-10-healthiest-foods-for-kids_-02.jpg&q=60);
+}
+
+.shapeone {
+	position: relative;
+	width: 0;
+	height: 0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 100px solid red;
+	margin: auto;
+	
+}
+.shapeone h{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 35px;
+}
+.shapeone:hover {
+	border-bottom: 100px solid rgb(214, 29, 29);			
+}
+.shapetwo {
+	position: relative;
+	border-bottom: 80px solid orange;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	height: 0;
+	width: 155px;
+	padding-top: 10px;
+	margin: auto;
+}
+.shapetwo:hover {
+	border-bottom: 80px solid rgb(171, 102, 29);			
+}
+.shapethree {
+	position: relative;
+	border-bottom: 85px solid yellow;
+	border-left: 65px solid transparent;
+	border-right: 65px solid transparent;
+	height: 0;
+	width: 275px;
+	padding-top: 10px;
+	margin: auto;	
+}
+.shapethree:hover {
+	border-bottom: 85px solid rgb(199, 199, 21);			
+}
+.shapefour
+{
+	position: relative;
+    border-bottom: 110px solid  rgb(69, 69, 215);
+	border-left: 85px solid transparent;
+	border-right: 85px solid transparent;
+	height: 0;
+	width: 405px; 
+	margin: auto;  
+}
+.shapefour:hover
+{
+    border-bottom: 110px solid rgb(55, 40, 92);
+}
+.shapefive
+{
+	position: relative;
+    border-bottom: 130px solid  rgb(197, 92, 12);
+	border-left: 105px solid transparent;
+	border-right: 105px solid transparent;
+	height: 0;
+	width: 575px; 
+	margin: auto;  
+}
+.shapefive:hover
+{
+    border-bottom: 130px solid rgb(173, 95, 46);
+}
+.shapesix
+{
+	position: relative;
+    border-bottom: 150px solid  rgb(0, 125, 0);
+	border-left: 125px solid transparent;
+	border-right: 125px solid transparent;
+	height: 0;
+	width: 785px;
+	margin: auto;   
+}
+.shapesix:hover
+{
+    border-bottom: 150px solid rgb(5, 81, 25);
+}
+.case1{
+	position: absolute;
+	top: 75px;
+	left: 35px;
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+
+
+}
+.case2{
+	position: absolute;
+	top: 75px;
+	right: 35px; 	
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+
+}
+.case3{
+	position: absolute;
+	top: 65px;
+	left: 120px;
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case4{
+	position: absolute;
+	top: 65px;
+	right: 120px; 	
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case5{
+	position: absolute;
+	top: 70px;
+	left: 185px;
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case6{
+	position: absolute;
+	top: 70px;
+	right: 185px; 	
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case7{
+	position: absolute;
+	top: 85px;
+	left: 255px;
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case8{
+	position: absolute;
+	top: 85px;
+	right: 255px; 	
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case9{
+	position: absolute;
+	top: 105px;
+	left: 340px;
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case10{
+	position: absolute;
+	top: 105px;
+	right: 340px; 	
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case11{
+	position: absolute;
+	top: 125px;
+	left: 450px;
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.case12{
+	position: absolute;
+	top: 125px;
+	right: 450px; 	
+	visibility: hidden;
+	background-color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.text1
+{
+	position: absolute;
+	left: 612px;
+	top: 65px;
+	color: black
+		
+
+}
+.text1:hover
+{
+	position: absolute;
+	font-size: larger;
+	cursor: pointer;
+}
+.text2
+{
+	position: absolute;
+	left: 612px;
+	top: 155px;
+	color: black	
+}
+.text2:hover
+{
+	position: absolute;
+	font-size: larger;
+	cursor: pointer;
+}
+.text3
+{
+	position: absolute;
+	left: 612px;
+	top: 250px;
+	color: black
+		
+}
+.text3:hover
+{
+	position: absolute;
+	font-size: larger;
+	cursor: pointer;
+}
+.text4
+{
+	position: absolute;
+	left: 612px;
+	top: 360px;
+	color: black		
+}
+.text4:hover
+{
+	position: absolute;
+	font-size: larger;
+	cursor: pointer;
+}
+.text5
+{
+	position: absolute;
+	left: 612px;
+	top: 490px;
+	color: black		
+}
+.text5:hover
+{
+	position: absolute;
+	font-size: larger;
+	cursor: pointer;
+}
+.text6
+{
+	position: absolute;
+	left: 612px;
+	top: 640px;
+	color: black	
+}
+.text6:hover
+{
+	position: absolute;
+	font-size: larger;
+	cursor: pointer;
+}
+.shapeone:hover .case1
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapeone:hover .case2
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapetwo:hover .case3
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapetwo:hover .case4
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapethree:hover .case5
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapethree:hover .case6
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapefour:hover .case7
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapefour:hover .case8
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapefive:hover .case9
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapefive:hover .case10
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapesix:hover .case11
+{
+	position: absolute;
+	visibility: visible;
+}
+.shapesix:hover .case12
+{
+	position: absolute;
+	visibility: visible;
+}
+.wrapper
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.move
+{
+	left: 60px;
+}
+
+

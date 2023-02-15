@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>  
+    <link rel="shortcut icon" type="image/png" href="https://img.freepik.com/free-vector/food-pyramid-nutrition_23-2148488325.jpg?w=2000"/> 
+    <title>
+        Shanes Website
+    </title>
+    <link rel ="stylesheet" type ="text/css" href="stylesheet.css"/>
+    <script src ="artihmetic.js">
+    </script>
+
+    <script>
+        function insertText()
+        {
+            var input = document.getElementById("userInput").value;
+            document.querySelector("b2").innerHTML =input;
+        }
+        
+    </script>
+
+    <style>
+.number-circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+    
+    <center>
+        
+    <div class ="shapeone">
+        <h style="color: black; font-size: large; font-family: Arial, Helvetica, sans-serif; right:auto;">1 ONLY</h>
+        
+        <button class="case1" onclick="incrementButton1()">+</button>
+        <button class="case2" onclick="decrementButton1()">-</button>
+    </div>
+
+    <div class ="shapetwo">
+        <h style="color: black; font-size: large; font-family: Arial, Helvetica, sans-serif;">2 items per day</h>
+        <button class="case3" onclick="incrementButton2()">+</button>
+        <button class="case4" onclick="decrementButton2()">-</button>       
+    </div>
+
+    <div class ="shapethree">
+        <h style="color: black; font-size: large; font-family: Arial, Helvetica, sans-serif;">3 items per day</h>
+    <button class="case5" onclick="incrementButton3()">+</button>
+    <button class="case6" onclick="decrementButton3()">-</button>
+    </div>
+
+    <div class ="shapefour">
+        <h style="color: black; font-size: large; font-family: Arial, Helvetica, sans-serif;">4 items per day</h>
+        <button class="case7" onclick="incrementButton4()">+</button>
+        <button class="case8" onclick="decrementButton4()">-</button>
+    </div>
+
+    <div class ="shapefive">
+        <h style="color: black; font-size: large; font-family: Arial, Helvetica, sans-serif;">5 items per day</h>
+        <button class="case9" onclick="incrementButton5()">+</button>
+        <button class="case10" onclick="decrementButton5()">-</button>
+    </div>
+
+    <div class ="shapesix">
+        <h style="color: black; font-size: large; font-family: Arial, Helvetica, sans-serif;">6 items per day</h>
+    <button class="case11" onclick="incrementButton6()">+</button>
+    <button class="case12" onclick="decrementButton6()">-</button>
+    </div>
+</center>
+</div>
+
+
+    
+        <a>
+            <div class="text1">
+                <div class="number-circle">
+                    <p id = "IncrementText1";>0</p> 
+                </div> 
+            </div>
+        
+
+    
+
+
+    
+        <div class="text2">
+            <div class="number-circle">
+                <p id = "IncrementText2";>0</p> 
+            </div> 
+        </div>
+
+        <div class="text3">
+            <div class="number-circle">
+                <p id = "IncrementText3";>0</p> 
+            </div> 
+        </div>
+    
+        <div class="text4">
+            <div class="number-circle">
+                <p id = "IncrementText4";>0</p> 
+            </div> 
+        </div>
+    
+        <div class="text5">
+            <div class="number-circle">
+                <p id = "IncrementText5";>0</p> 
+            </div> 
+        </div>
+
+        <div class="text6">
+            <div class="number-circle">
+                <p id = "IncrementText6";>0</p> 
+            </div> 
+        </div>
+        </a>
+
+
+
+    <center>
+  
+        <div style="display: inline-block; width: fit-content; height: fit-content; padding: 10px; border: 1px solid black; background-color: white; margin: 10px;">
+            <p style="color: rgb(0, 0, 0);margin: 0; font-size: medium; font-weight: bold;">My Food Pyramid.</p>
+          </div> 
+          </center>
+
+    <input type ="text" id ="userInput">
+    <button style="background-color: red; color: black; left: auto; cursor: pointer;margin-right: 600px;" onclick="insertText()">Record Your Date</button>
+
+    <div class="move">
+        <b style="background-color: white; color: black; font-size: large;">Date:</b>
+        <b2 style="background-color: white; color: black; font-size: large;">[DD/MM/YYYY]</b2> 
+    </div>
+    
+</body>
+
+
+</html>
